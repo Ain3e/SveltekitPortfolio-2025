@@ -26,6 +26,10 @@ export default {
         '36px': '2.25rem',
         '48px': '3rem',
 
+      },
+
+      borderRadius:{
+        '5px': '0.3125rem',
       }
     },
   },

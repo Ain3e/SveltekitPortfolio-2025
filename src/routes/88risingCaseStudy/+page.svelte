@@ -5,9 +5,19 @@
 
 <main class="antialiased gap-y-0">
 
+    <div class="cursor-pointer fixed z-20 w-fit h-fit m-5 right-0 top-0 overflow-y-scroll">
+        <a class="w-10 h-10 flex justify-center items-center bg-White rounded-[5px] sticky z-50 mr-5 mt-5" href="/">
+            <div class="font-suisseIntl font-thin">
+                X
+            </div>
+        </a>
+    </div>
+
+
+
     <section class="mx-5 grid grid-cols-12 gap-x-5 mt-5">
         <div class="col-start-1 col-span-full rounded-xl relative w-full">
-            <img src={thumbnail} alt="" class="rounded-2xl w-full" />
+            <img src={thumbnail} alt="" class="rounded-2xl w-full"/>
             <div class="absolute inset-0 flex items-start justify-start pl-4 pt-5">
                 <ul>
                     <li>
@@ -23,10 +33,11 @@
                 </ul>
             </div>
         </div>
-
     </section>
+
 
     <section class="mx-5 grid grid-cols-12 gap-x-5 mt-40">
 
     </section>
+
 </main>
