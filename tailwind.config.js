@@ -6,7 +6,8 @@ export default {
       Black: '#111111',
       White: '#FFFFFF',
       Grayline: '#292929',
-      Gray: '#7B7B7B'
+      Gray: '#7B7B7B',
+      offWhite: '#888888'
     },
     extend: {
       fontFamily: {
@@ -30,6 +31,10 @@ export default {
 
       borderRadius:{
         '5px': '0.3125rem',
+      },
+
+      lineHeight: {
+        'h1': '3.59925rem'
       }
     },
   },
