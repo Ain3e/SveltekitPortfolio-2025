@@ -71,7 +71,7 @@
 
     <section class="mx-5 grid grid-cols-12 gap-x-5 mt-40">
         <a class="col-start-1 col-span-8 rounded-xl relative w-full" href="88risingCaseStudy">
-            <video autoplay loop class="rounded-2xl">
+            <video autoplay loop muted preload="auto" class="rounded-2xl">
                 <source src="/videos/88rising/thumbnail.mp4">
                 <track src="/videos/88rising/thumbnail.mp4" kind="captions" srclang="en" label="English" default/>
             </video>
