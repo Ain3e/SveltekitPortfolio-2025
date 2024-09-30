@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*Bold*/
+@font-face{
+    font-family: 'Suisse Intl';
+    src: url('/src/fonts/SuisseIntl-Bold.woff') format("woff");
+    font-weight: 700;
+    font-style:normal;
+}
+
+/*Regular*/
+@font-face{
+    font-family: 'Suisse Intl';
+    src: url('/src/fonts/SuisseIntl-Regular.woff') format("woff");
+    font-weight: 400;
+    font-style:normal;
+
+}
+
+/*Medium*/
+@font-face{
+    font-family: 'Suisse Intl';
+    src: url('/src/fonts/SuisseIntl-Medium.woff') format("woff");
+    font-weight: 500;
+    font-style:normal;
+
+}
+
+/*Thin*/
+@font-face{
+    font-family: 'Suisse Intl';
+    src: url('/src/fonts/SuisseIntl-Thin.woff') format("woff");
+    font-weight: 265;
+    font-style:normal;
+
+}
+
