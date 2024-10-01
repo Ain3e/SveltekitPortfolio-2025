@@ -143,7 +143,7 @@
     </section>
 
     <section class="mx-5 grid grid-cols-12 gap-x-5 mt-40">
-        <div class="col-start-4 col-span-4">
+        <div class="col-start-4 col-span-3">
             <h2 class="font-light text-36px">Overambitious, Underdelivering for Fans</h2>
         </div>
         <div class="col-start-4 col-span-4 mt-14">
