@@ -3,11 +3,11 @@
 </script>
 
 
-<main class="antialiased gap-y-0">
+<main class="antialiasing gap-y-0">
 
     <div class="cursor-pointer fixed z-20 w-fit h-fit m-5 right-0 top-0 overflow-y-scroll">
         <a class="w-10 h-10 flex justify-center items-center bg-White rounded-[5px] sticky z-50 mr-5 mt-5" href="/">
-            <div class="font-suisseIntl font-thin">
+            <div class="font-thin">
                 X
             </div>
         </a>
@@ -20,12 +20,12 @@
             <div class="absolute inset-0 flex items-start justify-start pl-4 pt-5">
                 <ul>
                     <li>
-                        <h4 class="font-suisseIntl font-normal text-White text-sm">
+                        <h4 class="font-normal text-White text-sm">
                             Interaction Design
                         </h4>
                     </li>
                     <li class="mt-2">
-                        <h2 class="font-suisseIntl font-normal text-White text-2xl">
+                        <h2 class="font-normal text-White text-2xl">
                             88rising
                         </h2>
                     </li>
@@ -37,14 +37,14 @@
 
     <section class="mx-5 grid grid-cols-12 gap-x-5 mt-10">
         <div class="col-start-4 col-span-8">
-            <h1 class="font-suisseIntl font-light text-White text-48px leading-h1">
+            <h1 class="font-light text-White text-48px leading-h1">
                 Reimagining 88risings website experience for fans to engage
                 with their favourite artists and stay
                 informed.
             </h1>
         </div>
 
-        <div class="class= col-start-4 col-span-full mt-10">
+        <div class="col-start-4 col-span-full mt-10">
             <hr class="bg-offWhite border-1 border-offWhite">
             <hr/>
         </div>
@@ -52,28 +52,64 @@
         <div class="col-start-4 col-span-full mt-5 flex flex-row flex-auto gap-x-24">
             <div class="flex flex-col">
                 <div>
-                    <h4 class="font-suisseIntl font-regular text-17px text-Gray">Role</h4>
+                    <h4 class=" font-regular text-17px text-Gray">Role</h4>
                 </div>
                 <div class="mt-2">
-                    <h4 class="font-suisseIntl font-regular text-17px text-White">UI Designer</h4>
+                    <h4 class=" font-regular text-17px text-White">UI Designer</h4>
                 </div>
                 <div>
-                    <h4 class="font-suisseIntl font-regular text-17px text-White">User Researcher</h4>
+                    <h4 class=" font-regular text-17px text-White">User Researcher</h4>
                 </div>
                 <div>
-                    <h4 class="font-suisseIntl font-regular text-17px text-White">Facilitator</h4>
+                    <h4 class=" font-regular text-17px text-White">Facilitator</h4>
                 </div>
                 <div>
-                    <h4 class="font-suisseIntl font-regular text-17px text-White">Interaction Designer</h4>
+                    <h4 class=" font-regular text-17px text-White">Interaction Designer</h4>
                 </div>
             </div>
 
             <div class="flex flex-col">
                 <div>
-                    <h4 class="font-suisseIntl font-regular text-17px text-Gray">Timeline</h4>
+                    <h4 class=" font-regular text-17px text-Gray">Timeline</h4>
                 </div>
                 <div class="mt-2">
-                    <h4 class="font-suisseIntl font-regular text-17px text-White">3 Weeks, Fall 2023</h4>
+                    <h4 class=" font-regular text-17px text-White">3 Weeks, Fall 2023</h4>
+                </div>
+            </div>
+
+            <div class="flex flex-col">
+                <div>
+                    <h4 class=" font-regular text-17px text-Gray">Tools</h4>
+                </div>
+                <div class="mt-2">
+                    <h4 class=" font-regular text-17px text-White">Figma</h4>
+                </div>
+                <div>
+                    <h4 class=" font-regular text-17px text-White">After Effects</h4>
+                </div>
+                <div>
+                    <h4 class=" font-regular text-17px text-White">Premiere Pro</h4>
+                </div>
+                <div>
+                    <h4 class=" font-regular text-17px text-White">Google Forms</h4>
+                </div>
+            </div>
+
+            <div class="flex flex-col">
+                <div>
+                    <h4 class="font-regular text-17px text-Gray">Team</h4>
+                </div>
+                <div class="mt-2">
+                    <h4 class="font-regular text-17px text-White">Justin Yu</h4>
+                </div>
+                <div>
+                    <h4 class="font-regular text-17px text-White">Luke Do</h4>
+                </div>
+                <div>
+                    <h4 class="font-regular text-17px text-White">Terrence Xu</h4>
+                </div>
+                <div>
+                    <h4 class="font-regular text-17px text-White">Claret Egwim-Nwagbara</h4>
                 </div>
             </div>
 
@@ -81,17 +117,52 @@
         </div>
 
 
-
-        <div class="class= col-start-4 col-span-full mt-10">
+        <div class="col-start-4 col-span-full mt-10">
             <hr class="bg-offWhite border-1 border-offWhite">
             <hr/>
         </div>
     </section>
 
+    <section class="mx-5 grid grid-cols-12 gap-x-5 mt-16">
+        <div class="col-start-4 col-span-4">
+            <h4 class="font-regular text-17px text-Gray">Project Overview</h4>
+        </div>
+
+        <div class="col-start-4 col-span-5 mt-4">
+            <h4 class="font-regular text-20px">This 7-week experience design project aimed to
+                identify a client facing a challenge and develop a tailored intervention, though we struggled for the
+                first 4 weeks. I was responsible for conducting user research, finalizing
+                the interaction designs, while also facilitating a design sprint.</h4>
+        </div>
+
+        <div class="col-start-4 col-span-5 mt-10">
+            <h4 class="font-regular text-20px">This project is <span class="font-bold italic"> not associated with 88rising. </span>
+                It was
+                created as a mock client for an academic assignment.</h4>
+        </div>
+    </section>
+
+    <section class="mx-5 grid grid-cols-12 gap-x-5 mt-10">
+        <div class="col-start-4 col-span-3">
+            <h2 class="font-light text-36px">Overambitious, Underdelivering for Fans</h2>
+        </div>
+        <div class="col-start-4 col-span-5 mt-4">
+            <p class="font-regular text-17px">88rising stands as a multimedia record label committed to bridging the
+                cultural gap between the East and West. Through the promotion of Asian and Asian American culture across
+                diverse media platforms, the company aims to foster a deeper understanding and appreciation. </p>
+        </div>
+
+        <div class="col-start-4 col-span-5 mt-10">
+            <p class="font-regular text-17px">Despite a successful debut, they have struggled to maintain momentum,
+                losing over 2.6 billion viewership's in the past 4 years. This loss has stagnated their goal of
+                introducing Asians into mainstream media and serves as a hindrance to the company and its goal.</p>
+        </div>
+    </section>
 
     <section class="mx-5 grid grid-cols-12 gap-x-5 mt-10">
 
     </section>
+
     <section class="mx-5 grid grid-cols-12 gap-x-5 mt-10">
 
     </section>

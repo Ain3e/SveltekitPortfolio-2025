@@ -31,10 +31,12 @@ export default {
 
       borderRadius:{
         '5px': '0.3125rem',
+
       },
 
       lineHeight: {
-        'h1': '3.59925rem'
+        'h1': '3.59925rem',
+        'h2': '2.9375rem',
       }
     },
   },
