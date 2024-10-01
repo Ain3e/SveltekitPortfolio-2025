@@ -142,25 +142,72 @@
         </div>
     </section>
 
+    <!--    Problem Space-->
     <section class="mx-5 grid grid-cols-12 gap-x-5 mt-40">
-        <div class="col-start-4 col-span-3">
-            <h2 class="font-light text-36px">Overambitious, Underdelivering for Fans</h2>
+        <div class="col-start-4 col-span-4 row-start-1">
+            <div class="flex flex-col">
+                <div>
+                    <h2 class="font-light text-36px">Overambitious, Underdelivering for Fans</h2>
+                </div>
+                <div>
+                    <div class="mt-10">
+                        <h4 class="text-Gray"> Context </h4>
+                        <p class="font-regular text-17px mt-3">88rising stands as a multimedia record label committed to
+                            bridging the
+                            cultural gap between the East and West. Through the promotion of Asian and Asian American
+                            culture across
+                            diverse media platforms, the company aims to foster a deeper understanding and
+                            appreciation. </p>
+                    </div>
+                    <div class="mt-10">
+
+                        <h4 class="text-Gray"> Business Problem </h4>
+                        <p class="font-regular text-17px mt-3">Despite a successful debut, they have struggled to
+                            maintain momentum,
+                            losing over 2.6 billion viewership's in the past 4 years. This loss has stagnated their goal
+                            of
+                            introducing Asians into mainstream media and serves as a hindrance to the company and its
+                            goal.</p>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
-        <div class="col-start-4 col-span-4 mt-14">
-            <h4 class="text-Gray"> Context </h4>
-            <p class="font-regular text-17px mt-3">88rising stands as a multimedia record label committed to bridging the
-                cultural gap between the East and West. Through the promotion of Asian and Asian American culture across
-                diverse media platforms, the company aims to foster a deeper understanding and appreciation. </p>
+        <div class="col-start-8 col-span-5 ml-10 row-start-1">
+            <img src="/svg/88rising/viewcount.svg"/>
         </div>
 
-        <div class="col-start-4 col-span-4 mt-10">
-            <p class="font-regular text-17px">Despite a successful debut, they have struggled to maintain momentum,
-                losing over 2.6 billion viewership's in the past 4 years. This loss has stagnated their goal of
-                introducing Asians into mainstream media and serves as a hindrance to the company and its goal.</p>
+        <div class="col-start-4 col-span-full mt-40">
+            <img src="/svg/88rising/artistsviewcount.svg"/>
         </div>
+
+        <div class="col-start-4 col-span-4">
+            <p class="font-regular text-17px mt-6 italic">Comparatively, the older artists (Joji, Rich Brian and Niki)
+                are
+                doing better than the newer artists who appear to be struggling in reach despite putting out music
+                releases. </p>
+        </div>
+
+        <div class="col-start-4 col-span-7 mt-64">
+            <h4 class="font-light text-48px leading-h1">“For Asians and Asian Americans and just Asian youth globally,
+                there’s no real home on the Internet, or a company consistently putting out things that either include
+                Asian talent or Asian viewpoints in stories. ” </h4>
+            <div class="flex flex-row gap-x-32 mt-8">
+                <div>
+                    <h4 class="font-regular text-Gray text-17px">Sean Miyashiro</h4>
+                </div>
+                <div>
+                    <h4 class="font-regular text-Gray text-17px">CEO & Founder of 88rising</h4>
+                </div>
+            </div>
+        </div>
+
+
     </section>
 
-    <section class="mx-5 grid grid-cols-12 gap-x-5 mt-10">
+
+    <section class="mx-5 grid grid-cols-12 gap-x-5 ">
 
     </section>
 
