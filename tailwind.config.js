@@ -7,7 +7,8 @@ export default {
       White: '#FFFFFF',
       Grayline: '#292929',
       Gray: '#7B7B7B',
-      offWhite: '#888888'
+      offWhite: '#888888',
+      trueblack: '#000000',
     },
     extend: {
       fontFamily: {

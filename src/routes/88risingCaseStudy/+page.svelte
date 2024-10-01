@@ -203,11 +203,60 @@
             </div>
         </div>
 
+        <div class="col-start-4 col-span-4 mt-40">
+            <div>
+                <h2 class="font-light text-36px">Project Contributions</h2>
+            </div>
+            <div>
+                <p class="font-regular text-17px mt-3">I conducted user surveys and interviews to gather research
+                    insights, then led a design sprint to quickly evaluate ideas and accelerate the potential form
+                    of the solution. I led interaction designs of our final iteration/solution. </p>
+            </div>
 
     </section>
 
 
-    <section class="mx-5 grid grid-cols-12 gap-x-5 ">
+    <section class="mx-5 grid grid-cols-12 gap-x-5 mt-40">
+        <div class="col-start-4 col-span-full px-28 py-24 bg-trueblack rounded-xl">
+            <div class="flex flex-col">
+                <div>
+                    <h2 class="font-light text-36px">Content Strategy</h2>
+                </div>
+                <div class="flex flex-row">
+                    <div class="mt-10 basis-1/2 mr-32">
+                        <h4 class="text-Gray"> Collaborative Promotion: </h4>
+                        <p class="font-regular text-17px mt-3">Promoting discovery and increasing exposure for the
+                            lesser-known artists of 88rising by surfacing collaborative content with established
+                            talents. </p>
+                    </div>
+                    <div class="mt-10 basis-1/2">
+
+                        <h4 class="text-Gray"> Personifying Artists: </h4>
+                        <p class="font-regular text-17px mt-3">Showcasing the personalities of artists, to create a
+                            memorable first impression through unconventional means: using stickers and short clips that
+                            personify the artists and highlight them in a more relatable light.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-start-4 col-span-4 mt-40">
+            <h2 class="font-light text-36px">
+                Language driven artists discovery
+            </h2>
+            <p class="font-regular text-17px mt-3">The landing page features an array of Asian languages alongside their
+                respective countries, fostering exploration and discoverability. Designed with the aim of initiating
+                connections, it invites users to gravitate towards a language or country they resonate with,
+                facilitating the discovery of artists from the same cultural background.</p>
+        </div>
+
+        <div class="col-start-4 col-span-full mt-5">
+            <video autoplay loop muted preload="auto" class="rounded-2xl">
+                <source src="/videos/88rising/homepage.webm">
+                <track src="/videos/88rising/homepage.webm" kind="captions" srclang="en" label="English" default/>
+            </video>
+        </div>
+
 
     </section>
 
