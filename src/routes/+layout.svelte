@@ -16,12 +16,12 @@
 
     :global(h2){
         @apply leading-h2;
-        @apply tracking-wider;
+        /*@apply tracking-wider;*/
     }
 
     :global(h1){
         @apply leading-h1;
-        @apply tracking-wider;
+        /*@apply tracking-wider;*/
     }
 
 </style>
