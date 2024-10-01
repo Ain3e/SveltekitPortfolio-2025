@@ -142,17 +142,18 @@
         </div>
     </section>
 
-    <section class="mx-5 grid grid-cols-12 gap-x-5 mt-10">
-        <div class="col-start-4 col-span-3">
+    <section class="mx-5 grid grid-cols-12 gap-x-5 mt-40">
+        <div class="col-start-4 col-span-4">
             <h2 class="font-light text-36px">Overambitious, Underdelivering for Fans</h2>
         </div>
-        <div class="col-start-4 col-span-5 mt-4">
-            <p class="font-regular text-17px">88rising stands as a multimedia record label committed to bridging the
+        <div class="col-start-4 col-span-4 mt-14">
+            <h4 class="text-Gray"> Context </h4>
+            <p class="font-regular text-17px mt-3">88rising stands as a multimedia record label committed to bridging the
                 cultural gap between the East and West. Through the promotion of Asian and Asian American culture across
                 diverse media platforms, the company aims to foster a deeper understanding and appreciation. </p>
         </div>
 
-        <div class="col-start-4 col-span-5 mt-10">
+        <div class="col-start-4 col-span-4 mt-10">
             <p class="font-regular text-17px">Despite a successful debut, they have struggled to maintain momentum,
                 losing over 2.6 billion viewership's in the past 4 years. This loss has stagnated their goal of
                 introducing Asians into mainstream media and serves as a hindrance to the company and its goal.</p>

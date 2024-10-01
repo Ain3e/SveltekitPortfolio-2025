@@ -37,10 +37,29 @@ export default {
       lineHeight: {
         'h1': '3.59925rem',
         'h2': '2.9375rem',
-      }
+      },
+      fontSmoothing: {
+        antialiased: '-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;',
+        grayscale: '-webkit-font-smoothing: auto; -moz-osx-font-smoothing: grayscale;',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    function({ addUtilities }) {
+      const newUtilities = {
+        '.font-smoothing-antialiased': {
+          '-webkit-font-smoothing': 'antialiased',
+          '-moz-osx-font-smoothing': 'grayscale',
+        },
+        '.font-smoothing-auto': {
+          '-webkit-font-smoothing': 'auto',
+          '-moz-osx-font-smoothing': 'auto',
+        },
+      };
+
+      addUtilities(newUtilities, ['responsive', 'hover']);
+    },
+  ],
 }
 
 
