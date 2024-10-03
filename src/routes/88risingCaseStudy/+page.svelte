@@ -332,7 +332,7 @@
             </p>
         </div>
 
-        <div class="col-start-9 col-span-4 mt-40">
+        <div class="col-start-9 col-span-3 mt-40">
             <h1 class="font-light text-48px">
                 62%
             </h1>
