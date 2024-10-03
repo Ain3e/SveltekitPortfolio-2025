@@ -318,6 +318,59 @@
     </section>
 
     <section class="mx-5 grid grid-cols-12 gap-x-5 mt-10">
+        <div class="col-start-4 col-span-4 mt-40">
+            <h2 class="font-light text-36px">
+                Fans struggling
+                to stay engaged with
+                the brand
+            </h2>
+            <p class="font-regular text-17px mt-5">To find the root of the business problem the team conducted user
+                interviews and surveys involving 89 respondents spanning from casual to die-hard fans, we aimed to delve
+                into the core issues surrounding music-sharing habits and perceptions of 88rising and its roster of
+                artists.
+
+            </p>
+        </div>
+
+        <div class="col-start-9 col-span-4 mt-40">
+            <h1 class="font-light text-48px">
+                62%
+            </h1>
+            <p class="font-regular text-17px mt-2">of respondents were unaware of 88rising’s monthly releases, revealing
+                an engagement gap.
+            </p>
+
+            <h1 class="font-light text-48px mt-10">
+                41%
+            </h1>
+            <p class="font-regular text-17px mt-2">of casual fans attributed it to the brand’s perceived low engagement,
+                though they expressed interest in discovering new talent and signature sounds.
+            </p>
+        </div>
+
+        <div class="col-start-4 col-span-7 mt-64">
+            <h1 class="font-light text-48px leading-h1">“It feels like the big names are stagnant while majority of the
+                new artist are spread thin or not enough exposure.” </h1>
+            <div class="flex flex-row gap-x-32 mt-8">
+                <div>
+                    <h4 class="font-regular text-Gray text-17px">Survey Respondent</h4>
+                </div>
+                <div>
+                    <h4 class="font-regular text-Gray text-17px">Talking about the brands decline in popularity</h4>
+                </div>
+            </div>
+
+            <h4 class="font-light text-48px leading-h1 mt-20">“They give more variety of artist for people to discover. And
+                something new to listen to. A different sound from the usual big names...” </h4>
+            <div class="flex flex-row gap-x-32 mt-8">
+                <div>
+                    <h4 class="font-regular text-Gray text-17px">Survey Respondent</h4>
+                </div>
+                <div>
+                    <h4 class="font-regular text-Gray text-17px">Talking about 88risings newer artists</h4>
+                </div>
+            </div>
+        </div>
 
     </section>
 </main>
