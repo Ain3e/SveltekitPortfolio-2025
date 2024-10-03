@@ -244,20 +244,77 @@
             <h2 class="font-light text-36px">
                 Language driven artists discovery
             </h2>
-            <p class="font-regular text-17px mt-3">The landing page features an array of Asian languages alongside their
+            <p class="font-regular text-17px mt-5">The landing page features an array of Asian languages alongside their
                 respective countries, fostering exploration and discoverability. Designed with the aim of initiating
                 connections, it invites users to gravitate towards a language or country they resonate with,
                 facilitating the discovery of artists from the same cultural background.</p>
         </div>
 
-        <div class="col-start-4 col-span-full mt-5">
+        <div class="col-start-4 col-span-full mt-8">
             <video autoplay loop muted preload="auto" class="rounded-2xl">
                 <source src="/videos/88rising/homepage.webm">
                 <track src="/videos/88rising/homepage.webm" kind="captions" srclang="en" label="English" default/>
             </video>
         </div>
 
+        <div class="col-start-4 col-span-4 mt-40">
+            <h2 class="font-light text-36px">
+                Behind the beat collaborations
+            </h2>
+            <p class="font-regular text-17px mt-5">The collaboration page adopts an emotion-centric approach, showcasing
+                behind-the-scenes content from music videos to humanize the artists. This aims to present artists in a
+                more relatable light. Additionally, fans are offered direct links to the song on various streaming
+                platforms, enhancing their immersive experience.</p>
+        </div>
 
+        <div class="col-start-4 col-span-full mt-8">
+            <video autoplay loop muted preload="auto" class="rounded-2xl">
+                <source src="/videos/88rising/collaborations.webm">
+                <track src="/videos/88rising/collaborations.webm" kind="captions" srclang="en" label="English" default/>
+            </video>
+        </div>
+
+        <div class="col-start-4 col-span-4 mt-40">
+            <h2 class="font-light text-36px">
+                Celebrating unique
+                personalities
+            </h2>
+            <p class="font-regular text-17px mt-5">The artist page adopts an innovative approach, aiming to highlight
+                the distinctive personalities of the artists, which 88rising themselves consider. Utilizing a brief
+                introductory video to offer insight into their essence, a diverse collection of quirky stickers tailored
+                to each artist, and an assortment of video content including music videos, behind-the-scenes footage,
+                and exploratory content, the page offers a multifaceted glimpse into the artists' worlds.</p>
+        </div>
+
+        <div class="col-start-4 col-span-full mt-8">
+            <video autoplay loop muted preload="auto" class="rounded-2xl">
+                <source src="/videos/88rising/collaborations.webm">
+                <track src="/videos/88rising/collaborations.webm" kind="captions" srclang="en" label="English" default/>
+            </video>
+        </div>
+
+        <div class="col-start-4 col-span-full px-28 py-24 bg-trueblack rounded-xl mt-5">
+            <div class="flex flex-col">
+                <div>
+                    <h2 class="font-light text-36px">Value Proposition</h2>
+                </div>
+                <div class="flex flex-row">
+                    <div class="mt-10 basis-1/2 mr-32">
+                        <h4 class="text-Gray"> Added Value to 88rising </h4>
+                        <p class="font-regular text-17px mt-3">Fostering a loyal fan base through increasing song
+                            engagements and merch sales. Highlighting lesser known artists to deepen their talent pool
+                            all while further promoting Asian American media to mainstream global audiences.. </p>
+                    </div>
+                    <div class="mt-10 basis-1/2">
+
+                        <h4 class="text-Gray">Added Value to Fans </h4>
+                        <p class="font-regular text-17px mt-3">Helps create a more diverse music & artists range through
+                            enhanced discoverability and deeper artists engagement. Fans gain an appreciation of the
+                            artist’s creativity, influences and personal experiences.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="mx-5 grid grid-cols-12 gap-x-5 mt-10">
