@@ -360,7 +360,8 @@
                 </div>
             </div>
 
-            <h4 class="font-light text-48px leading-h1 mt-20">“They give more variety of artist for people to discover. And
+            <h4 class="font-light text-48px leading-h1 mt-20">“They give more variety of artist for people to discover.
+                And
                 something new to listen to. A different sound from the usual big names...” </h4>
             <div class="flex flex-row gap-x-32 mt-8">
                 <div>
@@ -372,5 +373,29 @@
             </div>
         </div>
 
+    </section>
+
+    <section class="mx-5 grid grid-cols-12 gap-x-5 mt-10">
+        <div class="col-start-4 col-span-4 mt-40">
+            <h2 class="font-light text-36px">
+                Visualizing Solutions Through a Focused Design Sprint
+            </h2>
+            <p class="font-regular text-17px mt-5">To identify specific areas for intervention, I facilitated a compact
+                one-day design sprint aimed at visualizing potential forms for our concept and solution. This
+                collaborative process allowed the team to rapidly generate, prototype, and iterate on ideas, providing a
+                clear direction for refining the design and addressing key challenges.
+
+            </p>
+        </div>
+
+        <div class="col-start-4 col-span-full mt-8">
+            <video autoplay loop muted preload="auto" class="rounded-2xl">
+                <source src="/videos/88rising/designsprintv2.mp4">
+                <track src="/videos/88rising/designsprintv2.mp4" kind="captions" srclang="en" label="English" default/>
+            </video>
+        </div>
+        <div class="col-start-4 col-span-full mt-8">
+            <img src="/svg/88rising/customerjourneymap.svg" class="rounded-2xl"/>
+        </div>
     </section>
 </main>
