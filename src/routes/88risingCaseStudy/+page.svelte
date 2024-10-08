@@ -1,5 +1,9 @@
 <script>
     import thumbnail from '$lib/images/88rising/88risingcasestudythumbnail.png';
+    import currentSite from '$lib/images/88rising/currentsite.png';
+    import currentSite2 from '$lib/images/88rising/currentwebstore.png';
+    import giveMeYesterdayThumbnail from "$lib/images/giveMeYesterday/giveMeYesterdayThumbnail.png";
+
 </script>
 
 
@@ -396,6 +400,49 @@
         </div>
         <div class="col-start-4 col-span-full mt-8">
             <img src="/svg/88rising/customerjourneymap.svg" class="rounded-2xl"/>
+        </div>
+
+        <div class="col-start-4 col-span-4 mt-40">
+            <h2 class="font-light text-36px">
+                Disconnected
+                key touchpoints.
+            </h2>
+            <p class="font-regular text-17px mt-5">88risings current site only focuses of sale, lacking information
+                about artist themselves or music, which may give the wrong impression of the label. Additionally, their
+                YouTube channel houses content scattered across various platform making it hard for fans to discover and
+                further engagement.
+
+            </p>
+        </div>
+
+        <div class="col-start-4 col-span-full mt-20">
+            <div class="flex flex-row gap-4">
+                <div>
+                    <img src={currentSite} alt="yes" class="rounded-xl w-full"/>
+                </div>
+                <div>
+                    <img src={currentSite2} alt="yes" class="rounded-xl w-full"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-start-4 col-span-full mt-4">
+            <video autoplay loop muted preload="auto" class="rounded-xl">
+                <source src="/videos/88rising/88risingyoutubechannel.webm">
+                <track src="/videos/88rising/88risingyoutubechannel.webm" kind="captions" srclang="en" label="English"
+                       default/>
+            </video>
+        </div>
+
+        <div class="col-start-4 col-span-full px-28 py-24 bg-trueblack rounded-xl mt-10">
+            <div class="">
+                <h4 class="text-Gray"> This led us to: </h4>
+                <p class="font-light text-36px mt-3 leading-h2">How might we create a centralized platform for casual fans,
+                    <span class="font-bold"> simplifying the discovery and supporting lesser-known artists </span> to
+                    further their reach and
+                    engagement while establishing connections with the audience </p>
+            </div>
+
         </div>
     </section>
 </main>
