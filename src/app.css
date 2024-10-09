@@ -38,3 +38,7 @@
 
 }
 
+.section-title{
+    position: sticky;
+    top: 180px;
+}

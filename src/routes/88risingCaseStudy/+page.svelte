@@ -6,6 +6,9 @@
     import iteration0 from '$lib/images/88rising/iteration1-0.png';
     import iteration1 from '$lib/images/88rising/iteration1-1.png';
     import iteration2 from '$lib/images/88rising/iteration1-2.png';
+    import beforeDiscography from '$lib/images/88rising/beforeDiscographyInteraction.png';
+    import beforeArtists from '$lib/images/88rising/beforeArtistsInteraction.png';
+
 
 </script>
 
@@ -20,6 +23,7 @@
         </a>
     </div>
     <!--    Could make this into a component-->
+
 
     <section class="mx-5 grid grid-cols-12 gap-x-5 mt-5">
         <div class="col-start-1 col-span-full rounded-xl relative w-full">
@@ -42,7 +46,15 @@
     </section>
 
 
+    <section class="mx-5 grid grid-cols-12 gap-x-5">
+
+    </section>
     <section class="mx-5 grid grid-cols-12 gap-x-5 mt-10">
+        <div class="col-start-1 col-span-2 row-span-11">
+            <div class="section-title">
+                <h4 class=" font-regular text-17px text-Gray">Preface</h4>
+            </div>
+        </div>
         <div class="col-start-4 col-span-8">
             <h1 class="font-light text-White text-48px leading-h1">
                 Reimagining 88risings website experience for fans to engage
@@ -128,10 +140,8 @@
             <hr class="bg-offWhite border-1 border-offWhite">
             <hr/>
         </div>
-    </section>
 
-    <section class="mx-5 grid grid-cols-12 gap-x-5 mt-16">
-        <div class="col-start-4 col-span-4">
+        <div class="col-start-4 col-span-4 mt-16">
             <h4 class="font-regular text-17px text-Gray">Project Overview</h4>
         </div>
 
@@ -149,8 +159,15 @@
         </div>
     </section>
 
+
     <!--    Problem Space-->
     <section class="mx-5 grid grid-cols-12 gap-x-5 mt-40">
+        <div class="col-start-1 col-span-2 row-span-11">
+            <div class="section-title">
+                <h4 class=" font-regular text-17px text-Gray">Part One</h4>
+                <h4 class=" font-regular text-17px text-White">The Problem Space</h4>
+            </div>
+        </div>
         <div class="col-start-4 col-span-4 row-start-1">
             <div class="flex flex-col">
                 <div>
@@ -513,9 +530,9 @@
                             <img src="/svg/88rising/iterationAnnotation2.svg" alt="yes"
                                  class="rounded-xl w-full mt-4"/>
                             <div class="absolute inset-0 flex items-start justify-start pl-8 pt-5">
-                                    <div>
-                                        <h4 class="font-regular text-Gray">Artists Page</h4>
-                                    </div>
+                                <div>
+                                    <h4 class="font-regular text-Gray">Artists Page</h4>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -561,6 +578,118 @@
             </p>
         </div>
 
+        <div class="col-start-4 col-span-full mt-16">
+            <div class="flex flex-col gap-4">
+                <div class="flex flex-row gap-4">
+                    <div class="basis-1/2">
+                        <div class="relative w-full">
+                            <img src={beforeArtists} alt="yes" class="rounded-xl w-full"/>
+                            <div class="absolute inset-0 flex items-start justify-start pl-8 pt-5">
+                                <div>
+                                    <h4 class="font-regular text-Gray">Before</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="basis-1/2">
+                        <div class="relative w-full">
+                            <video autoplay loop muted preload="auto" class="rounded-2xl">
+                                <source src="/videos/88rising/artistsInteraction.webm">
+                                <track src="/videos/88rising/artistsInteraction.webm" kind="captions" srclang="en"
+                                       label="English" default/>
+                            </video>
+                            <div class="absolute inset-0 flex items-start justify-start pl-8 pt-5">
+                                <div>
+                                    <h4 class="font-regular text-Gray">After</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-start-4 col-span-4 mt-16">
+            <p class="font-regular text-17px mt-5">
+                I then incorporated elements from personal memorabilia, like Polaroids, to evoke a sense of personal
+                connection, and mirrored the experience of flipping through vinyl records for an interactive
+                discography. These choices were made to foster intimacy and nostalgia, aligning with the core goal of
+                presenting artists as relatable rather than distant figures of fame.
+            </p>
+        </div>
+
+
+        <div class="col-start-4 col-span-full mt-20">
+            <div class="flex flex-col gap-4">
+                <div class="flex flex-row gap-4">
+                    <div class="basis-1/2">
+                        <div class="relative w-full">
+                            <img src={beforeDiscography} alt="yes" class="rounded-xl w-full"/>
+                            <div class="absolute inset-0 flex items-start justify-start pl-8 pt-5">
+                                <div>
+                                    <h4 class="font-regular text-Gray">Before</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="basis-1/2">
+                        <div class="relative w-full">
+                            <video autoplay loop muted preload="auto" class="rounded-2xl">
+                                <source src="/videos/88rising/discographyInteraction.webm">
+                                <track src="/videos/88rising/discographyInteraction.webm" kind="captions" srclang="en"
+                                       label="English" default/>
+                            </video>
+                            <div class="absolute inset-0 flex items-start justify-start pl-8 pt-5">
+                                <div>
+                                    <h4 class="font-regular text-Gray">After</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
 
     </section>
+
+    <section class="mx-5 grid grid-cols-12 gap-x-5 mt-20">
+
+        <div class="col-start-4 col-span-full px-28 py-24 bg-trueblack rounded-xl mt-5">
+            <div class="flex flex-col">
+                <div>
+                    <h2 class="font-light text-36px">Retrospective</h2>
+                </div>
+                <div class="flex flex-row">
+                    <div class="mt-10 basis-1/2 mr-32">
+                        <h4 class="text-Gray"> Challenges </h4>
+                        <p class="font-regular text-17px mt-3">We had 7 weeks to find a client and build a solution, but
+                            we spent the first 5 weeks searching for the "perfect business problem." This was a reminder
+                            that the process is rarely linear. With only 3 weeks remaining, we knew we couldn’t complete
+                            everything, like user testing or a mobile version, but we focused on creating a memorable
+                            and impactful project within the time we had. </p>
+                    </div>
+                    <div class="mt-10 basis-1/2">
+
+                        <h4 class="text-Gray">Thoughts </h4>
+                        <p class="font-regular text-17px mt-3">The challenges I faced at the beginning of this project
+                            became my most valuable learning experience. It took many sleepless nights to truly
+                            understand the effort required for a successful design, reinforcing the idea that "Rome
+                            wasn’t built in a day." Design isn’t just about aesthetics—it’s about creating meaningful
+                            connections and impacting people’s lives. My team and I achieved this by focusing on
+                            storytelling, clear visuals, engaging interactions, and thoughtful copywriting. These
+                            elements gave our project an emotional appeal and empowered fans to connect with their
+                            favourite artists and brand on a meaningful level.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 </main>

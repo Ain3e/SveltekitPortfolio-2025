@@ -30,6 +30,10 @@ export default {
 
       },
 
+      spacing:{
+        '180px': '180px',
+      },
+
       borderRadius:{
         '5px': '0.3125rem',
 
