@@ -3,6 +3,9 @@
     import currentSite from '$lib/images/88rising/currentsite.png';
     import currentSite2 from '$lib/images/88rising/currentwebstore.png';
     import giveMeYesterdayThumbnail from "$lib/images/giveMeYesterday/giveMeYesterdayThumbnail.png";
+    import iteration0 from '$lib/images/88rising/iteration1-0.png';
+    import iteration1 from '$lib/images/88rising/iteration1-1.png';
+    import iteration2 from '$lib/images/88rising/iteration1-2.png';
 
 </script>
 
@@ -292,8 +295,8 @@
 
         <div class="col-start-4 col-span-full mt-8">
             <video autoplay loop muted preload="auto" class="rounded-2xl">
-                <source src="/videos/88rising/collaborations.webm">
-                <track src="/videos/88rising/collaborations.webm" kind="captions" srclang="en" label="English" default/>
+                <source src="/videos/88rising/artists.mov">
+                <track src="/videos/88rising/artists.mov" kind="captions" srclang="en" label="English" default/>
             </video>
         </div>
 
@@ -437,12 +440,127 @@
         <div class="col-start-4 col-span-full px-28 py-24 bg-trueblack rounded-xl mt-10">
             <div class="">
                 <h4 class="text-Gray"> This led us to: </h4>
-                <p class="font-light text-36px mt-3 leading-h2">How might we create a centralized platform for casual fans,
+                <p class="font-light text-36px mt-3 leading-h2">How might we create a centralized platform for casual
+                    fans,
                     <span class="font-bold"> simplifying the discovery and supporting lesser-known artists </span> to
                     further their reach and
                     engagement while establishing connections with the audience </p>
             </div>
 
         </div>
+    </section>
+
+
+    <section class="mx-5 grid grid-cols-12 gap-x-5 mt-10">
+        <div class="col-start-4 col-span-4 mt-40">
+            <h2 class="font-light text-36px">
+                First Iterations:
+            </h2>
+            <p class="font-regular text-17px mt-5">With just 2.5 weeks left before the final deadline, our team rapidly
+                developed mid-fidelity wireframes to align with the content strategy. Although feedback from mentors
+                pointed out that this iteration fell short, they found the underlying concept we aimed to create highly
+                compelling.
+
+            </p>
+        </div>
+
+        <div class="col-start-4 col-span-full mt-16">
+            <div class="flex flex-col gap-4">
+                <div class="flex flex-row gap-4">
+                    <div>
+                        <div>
+                            <img src={iteration1} alt="yes" class="rounded-xl w-full"/>
+                        </div>
+                        <div>
+                            <img src={iteration2} alt="yes" class="rounded-xl w-full mt-4"/>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src={iteration0} alt="yes" class="rounded-xl w-full"/>
+                    </div>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-start-4 col-span-4 mt-40">
+            <h2 class="font-light text-36px">
+                Second Iterations:
+            </h2>
+            <p class="font-regular text-17px mt-5">After receiving feedback, we revisited our approach to refine the
+                direction. We focused on striking a better balance between 88rising’s aspirational goals and making them
+                more tangible. However, one critique we received was that the artists' page lacked cohesion with the
+                rest of the site and could be much more unified in design.
+
+            </p>
+        </div>
+
+        <div class="col-start-4 col-span-full mt-16">
+            <div class="flex flex-col gap-4">
+                <div class="flex flex-row gap-4">
+                    <div>
+                        <div class="relative w-full">
+                            <img src="/svg/88rising/iterationAnnotation4.svg" alt="yes" class="rounded-xl w-full"/>
+                            <div class="absolute inset-0 flex items-start justify-start pl-8 pt-5">
+                                <div>
+                                    <h4 class="font-regular text-Gray">Homepage</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative w-full">
+                            <img src="/svg/88rising/iterationAnnotation2.svg" alt="yes"
+                                 class="rounded-xl w-full mt-4"/>
+                            <div class="absolute inset-0 flex items-start justify-start pl-8 pt-5">
+                                    <div>
+                                        <h4 class="font-regular text-Gray">Artists Page</h4>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="relative w-full">
+                            <img src="/svg/88rising/iterationAnnotation1.svg" alt="yes" class="rounded-xl w-full"/>
+                            <div class="absolute inset-0 flex items-start justify-start pl-8 pt-5">
+                                <div>
+                                    <h4 class="font-regular text-Gray">Collaborations Page</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative w-full">
+                            <img src="/svg/88rising/iterationAnnotation3.svg" alt="yes" class="rounded-xl w-full mt-4"/>
+                            <div class="absolute inset-0 flex items-start justify-start pl-8 pt-5">
+                                <div>
+                                    <h4 class="font-regular text-Gray">Discography</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-start-4 col-span-4 mt-24">
+            <h2 class="font-light text-36px">
+                Building a
+                tighter interaction language
+            </h2>
+            <p class="font-regular text-17px mt-5">We started with the idea of presenting artists in a relatable way,
+                focusing on their personal stories and connections with fans rather than their fame. Initially, we
+                applied this concept through simple pictures that invited users to engage more personally with the
+                artists.
+            </p>
+
+            <p class="font-regular text-17px mt-5">
+                To tighten the interaction language, I started by drawing inspiration from the homepage’s grid
+                organization, ensuring consistency throughout the design.
+            </p>
+        </div>
+
+
     </section>
 </main>
