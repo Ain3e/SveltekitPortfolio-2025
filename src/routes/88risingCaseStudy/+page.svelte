@@ -236,11 +236,17 @@
                     insights, then led a design sprint to quickly evaluate ideas and accelerate the potential form
                     of the solution. I led interaction designs of our final iteration/solution. </p>
             </div>
-
+        </div>
     </section>
 
 
     <section class="mx-5 grid grid-cols-12 gap-x-5 mt-40">
+        <div class="col-start-1 col-span-2 row-span-11">
+            <div class="section-title">
+                <h4 class=" font-regular text-17px text-Gray">Part Two</h4>
+                <h4 class=" font-regular text-17px text-White">Final Concept</h4>
+            </div>
+        </div>
         <div class="col-start-4 col-span-full px-28 py-24 bg-trueblack rounded-xl">
             <div class="flex flex-col">
                 <div>
@@ -342,6 +348,12 @@
     </section>
 
     <section class="mx-5 grid grid-cols-12 gap-x-5 mt-10">
+        <div class="col-start-1 col-span-2 row-span-11">
+            <div class="section-title">
+                <h4 class=" font-regular text-17px text-Gray">Part Three</h4>
+                <h4 class=" font-regular text-17px text-White">The Research</h4>
+            </div>
+        </div>
         <div class="col-start-4 col-span-4 mt-40">
             <h2 class="font-light text-36px">
                 Fans struggling
@@ -400,6 +412,12 @@
     </section>
 
     <section class="mx-5 grid grid-cols-12 gap-x-5 mt-10">
+        <div class="col-start-1 col-span-2 row-span-11">
+            <div class="section-title">
+                <h4 class=" font-regular text-17px text-Gray">Part Four</h4>
+                <h4 class=" font-regular text-17px text-White">Framing the Problem</h4>
+            </div>
+        </div>
         <div class="col-start-4 col-span-4 mt-40">
             <h2 class="font-light text-36px">
                 Visualizing Solutions Through a Focused Design Sprint
@@ -469,6 +487,12 @@
 
 
     <section class="mx-5 grid grid-cols-12 gap-x-5 mt-10">
+        <div class="col-start-1 col-span-2 row-span-11">
+            <div class="section-title">
+                <h4 class=" font-regular text-17px text-Gray">Part Five</h4>
+                <h4 class=" font-regular text-17px text-White">Ideations</h4>
+            </div>
+        </div>
         <div class="col-start-4 col-span-4 mt-40">
             <h2 class="font-light text-36px">
                 First Iterations:
@@ -659,7 +683,12 @@
     </section>
 
     <section class="mx-5 grid grid-cols-12 gap-x-5 mt-20">
-
+        <div class="col-start-1 col-span-2 row-span-11">
+            <div class="section-title">
+                <h4 class=" font-regular text-17px text-Gray">Part Six</h4>
+                <h4 class=" font-regular text-17px text-White">Reflections</h4>
+            </div>
+        </div>
         <div class="col-start-4 col-span-full px-28 py-24 bg-trueblack rounded-xl mt-5">
             <div class="flex flex-col">
                 <div>
@@ -691,5 +720,8 @@
         </div>
     </section>
 
+    <section class="mx-5 grid grid-cols-12 gap-x-5 mt-20">
+
+    </section>
 
 </main>
