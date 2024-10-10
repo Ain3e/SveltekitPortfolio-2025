@@ -32,7 +32,7 @@
                 <ul>
                     <li>
                         <h4 class="font-normal text-White text-sm">
-                            Interaction Design
+                            Experience Design, Interaction Design
                         </h4>
                     </li>
                     <li class="mt-2">

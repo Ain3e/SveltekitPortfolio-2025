@@ -79,7 +79,7 @@
                 <ul>
                     <li>
                         <h4 class="font-suisseIntl font-regular text-White text-14px">
-                            Experience Design
+                            Experience Design, Interaction Design
                         </h4>
                     </li>
                     <li>
